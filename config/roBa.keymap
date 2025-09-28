@@ -11,6 +11,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <4>;
 
     // arrows {
@@ -44,12 +45,12 @@
 
         santen {
             bindings = <&z_macro PERIOD>;
-            key-positions = <19 20>;
+            key-positions = <18 17>;
         };
 
         dash {
             bindings = <&z_macro MINUS>;
-            key-positions = <31 32>;
+            key-positions = <30 29>;
         };
 
         kagi_s {
