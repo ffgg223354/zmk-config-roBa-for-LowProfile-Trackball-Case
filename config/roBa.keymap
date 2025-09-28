@@ -45,12 +45,12 @@
 
         santen {
             bindings = <&z_macro PERIOD>;
-            key-positions = <18 17>;
+            key-positions = <19 18>;
         };
 
         dash {
             bindings = <&z_macro MINUS>;
-            key-positions = <30 29>;
+            key-positions = <30 31>;
         };
 
         kagi_s {
