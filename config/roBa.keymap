@@ -128,10 +128,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_6          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0                                    &kp DOUBLE_QUOTES  &mkp MB3  &mo 4      &mkp MB2    &kp TILDE
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &none              &kp AMPERSAND  &kp SINGLE_QUOTE   &mkp MB1  &to 4      &none       &kp PAGE_UP
-&mt LEFT_SHIFT SLASH  &kp ASTERISK  &kp MINUS     &kp PLUS       &kp EQUAL     &kp BACKSLASH      &kp PERCENT    &kp COLON          &none     &kp COMMA  &kp PERIOD  &kp PAGE_DOWN
-&kp LEFT_CONTROL      &kp LEFT_GUI  &kp LEFT_ALT  &kp BACKSPACE  &none         &mo 2              &mo 2          &lt 3 ENTER                                         &to 0
+&kp NUMBER_6          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0                                    &kp DOUBLE_QUOTES  &mkp MB3       &mo 4             &mkp MB2    &kp TILDE
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &none              &kp AMPERSAND  &kp SINGLE_QUOTE   &mkp MB1       &to 4             &none       &kp PAGE_UP
+&mt LEFT_SHIFT SLASH  &kp ASTERISK  &kp MINUS     &kp PLUS       &kp EQUAL     &kp BACKSLASH      &kp PERCENT    &kp COLON          &kp LESS_THAN  &kp GREATER_THAN  &kp PERIOD  &kp PAGE_DOWN
+&kp LEFT_CONTROL      &kp LEFT_GUI  &kp LEFT_ALT  &kp BACKSPACE  &none         &mo 2              &mo 2          &lt 3 ENTER                                                     &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
